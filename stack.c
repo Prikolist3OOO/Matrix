@@ -7,6 +7,7 @@ struct stack{
 };
 void init(struct stack*);
 void push(struct stack* , double);
+double pop(struct stack *);
 
 int main(){
 
